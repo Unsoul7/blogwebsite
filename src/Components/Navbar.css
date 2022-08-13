@@ -1,7 +1,69 @@
-.navbar{
+.navbar {
     display: flex;
     width: 100vw;
     height: 10vh;
     justify-content: flex-start;
     align-items: center;
+}
+
+.navbar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    right: 0px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.navbar div input {
+    width: 20vmax;
+    height: 50%;
+    border: 1px solid black;
+    border-right: none;
+}
+
+.navbar div input:focus {
+   outline: none;
+}
+
+.navbar div input {
+   font-size: 2vmin;
+   padding: 0 5px;
+}
+
+.navbar div button {
+    width: 5vmax;
+    height: 55%;
+    border: 1px solid black;
+    border-left: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.navbar img {
+    width: 15rem;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    font-size: 3vmin;
+    margin: 0 20px;
+    color: black;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: green;
 }

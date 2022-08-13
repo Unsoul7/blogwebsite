@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "./logo.png"
+import './Navbar.css'
 
 function Navigation() {
   return (
@@ -14,7 +15,7 @@ function Navigation() {
             <input type="text" />
             <button>Search</button>
         </div>
-    </div>
+    </div>  
   )
 }
 
