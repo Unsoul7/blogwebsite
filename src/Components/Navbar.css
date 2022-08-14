@@ -4,6 +4,7 @@
     height: 10vh;
     justify-content: flex-start;
     align-items: center;
+    position: sticky;
 }
 
 .navbar div {
@@ -34,15 +35,16 @@
 
 .navbar div button {
     width: 5vmax;
-    height: 55%;
+    height: 54%;
     border: 1px solid black;
     border-left: none;
     background-color: white;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .navbar img {
-    width: 15rem;
+    width: 20vmax;
 }
 
 .navbar ul {
@@ -64,6 +66,18 @@
     text-decoration: none;
 }
 
+#btn-signup{
+    margin-left: 10px;
+    border: 1px solid black ; 
+    width: 8vmax;
+    /* color     */
+    background: rgb(34, 252, 14);
+}
+
 .navbar ul li a:hover {
     color: green;
 }
+/* 
+@media (max-width:) {
+    
+} */

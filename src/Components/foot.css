@@ -1,0 +1,44 @@
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid whitesmoke;
+    /* padding:0 40px; */
+}
+
+.foot p{
+    margin-left: 20px;
+}
+.foot ul{
+    display: flex;
+    margin-left: auto;
+    /* margin-right: 10px; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.foot ul li{
+    font-size: 2vmin;
+    color: black;   
+    margin: 0 10px;
+}
+
+.foot ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.foot ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+

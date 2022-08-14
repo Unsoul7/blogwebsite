@@ -13,7 +13,8 @@ function Navigation() {
         </ul>
         <div>
             <input type="text" />
-            <button>Search</button>
+            <button >Search</button>
+            <button id='btn-signup'>Sign Up</button>
         </div>
     </div>  
   )

@@ -1,10 +1,13 @@
-  import Navigation from './Components/Navigation';
+import Footer from './Components/Footer';
+import Navigation from './Components/Navigation';
+import './Mainapp.css'
 
 function App() {
   return (
     <div className="App">
      <Navigation/>
-    </div>
+     <Footer/>
+    </div>  
   );
 }
 
